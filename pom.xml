@@ -25,14 +25,14 @@
 	</dependencies>
 	
 	<distributionManagement>
-		 <snapshotRepository>http://3.108.196.220:8081/repository/sample-releases/<url>
+		 <snapshotRepository>
 		    <id>nexusRepo</id>
-		    <url>http://3.108.196.220:8081/repository/sample-snapshots/</url>
+		    <url>http://3.108.196.220:8081/repository/sample-releases/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexusRepo</id>
-		    <url></url>
+		    <url>http://3.108.196.220:8081/repository/sample-snapshots/</url>
 		</repository>
   	</distributionManagement>
 	
@@ -46,3 +46,5 @@
 
 	
 </project>
+
+
